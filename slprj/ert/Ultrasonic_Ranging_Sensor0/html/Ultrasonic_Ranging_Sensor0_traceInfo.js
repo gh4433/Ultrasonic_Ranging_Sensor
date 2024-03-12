@@ -1,0 +1,35 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "Ultrasonic_Ranging_Sensor0"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<S1>"] = {sid: "Ultrasonic_Ranging_Sensor0:3"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3"] = {rtwname: "<S1>"};
+	this.rtwnameHashMap["<Root>/tri"] = {sid: "Ultrasonic_Ranging_Sensor0:1"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:1"] = {rtwname: "<Root>/tri"};
+	this.rtwnameHashMap["<Root>/dis"] = {sid: "Ultrasonic_Ranging_Sensor0:2"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:2"] = {rtwname: "<Root>/dis"};
+	this.rtwnameHashMap["<Root>/Chart"] = {sid: "Ultrasonic_Ranging_Sensor0:3"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3"] = {rtwname: "<Root>/Chart"};
+	this.rtwnameHashMap["<Root>/Data Type Conversion"] = {sid: "Ultrasonic_Ranging_Sensor0:4"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:4"] = {rtwname: "<Root>/Data Type Conversion"};
+	this.rtwnameHashMap["<Root>/echo"] = {sid: "Ultrasonic_Ranging_Sensor0:6"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:6"] = {rtwname: "<Root>/echo"};
+	this.rtwnameHashMap["<S1>:4"] = {sid: "Ultrasonic_Ranging_Sensor0:3:4"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3:4"] = {rtwname: "<S1>:4"};
+	this.rtwnameHashMap["<S1>:3"] = {sid: "Ultrasonic_Ranging_Sensor0:3:3"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3:3"] = {rtwname: "<S1>:3"};
+	this.rtwnameHashMap["<S1>:1"] = {sid: "Ultrasonic_Ranging_Sensor0:3:1"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3:1"] = {rtwname: "<S1>:1"};
+	this.rtwnameHashMap["<S1>:14"] = {sid: "Ultrasonic_Ranging_Sensor0:3:14"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3:14"] = {rtwname: "<S1>:14"};
+	this.rtwnameHashMap["<S1>:2"] = {sid: "Ultrasonic_Ranging_Sensor0:3:2"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3:2"] = {rtwname: "<S1>:2"};
+	this.rtwnameHashMap["<S1>:6"] = {sid: "Ultrasonic_Ranging_Sensor0:3:6"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3:6"] = {rtwname: "<S1>:6"};
+	this.rtwnameHashMap["<S1>:5"] = {sid: "Ultrasonic_Ranging_Sensor0:3:5"};
+	this.sidHashMap["Ultrasonic_Ranging_Sensor0:3:5"] = {rtwname: "<S1>:5"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();

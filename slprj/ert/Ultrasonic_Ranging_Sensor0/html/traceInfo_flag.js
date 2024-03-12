@@ -1,0 +1,51 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:59c35"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:60c32"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:63c48"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:71c11"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:71c20"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:80c39"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:80c73"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:91c11"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:91c20"]=1;
+    this.traceFlag["Ultrasonic_Ranging_Sensor0.c:96c27"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:49"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:50"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:51"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:59"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:60"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:63"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:64"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:65"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:66"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:68"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:69"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:70"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:71"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:72"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:73"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:74"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:78"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:79"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:80"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:82"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:83"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:84"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:90"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:91"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:92"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:93"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:94"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:95"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.c:96"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.h:40"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.h:41"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.h:42"]=1;
+    this.lineTraceFlag["Ultrasonic_Ranging_Sensor0.h:43"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();

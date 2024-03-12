@@ -1,0 +1,46 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   4 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c4_Ranging_Estimator0"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c4_Ranging_Estimator0"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "counter"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "counter"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "loop"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "loop"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
